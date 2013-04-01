@@ -1,0 +1,7 @@
+This bunch of programs form a unified algorithm to identify the structure of thecircuit based on the image entered to it. It takes an image as an input and outputs the structure and if possible the DC analysis of the circuit mentionedin the figure.
+
+The algorithm makes use of Kalman filters for image segmentation and support vector machines for image classification and recognition.
+
+The initial commit consists of the SVM classifier toidentify a few electrical elelements based on the individual images fed. The elements include resistors,capacitors,inductors,voltage sources and a few.
+
+
